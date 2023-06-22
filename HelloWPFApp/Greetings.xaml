@@ -8,8 +8,8 @@
         Title="Hello WPF App" Height="450" Width="800">
     <Grid>
         <TextBlock HorizontalAlignment="Center" Margin="0,26,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Text="Select a message option and then choose the Display button:"/>
-        <RadioButton x:Name="GoodbyeButton" Content="Goodbye" Margin="523,130,184,286"/>
-        <RadioButton x:Name="HelloButton" Content="Hello" Margin="114,130,595,286" IsChecked="True"/>
+        <RadioButton x:Name="GoodbyeButton" Content="Goodbye" Margin="523,130,0,0" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+        <RadioButton x:Name="HelloButton" Content="Hello" Margin="114,130,0,0" IsChecked="True" VerticalAlignment="Top" HorizontalAlignment="Left"/>
         <Button Content="Display" HorizontalAlignment="Center" Margin="0,312,0,0" VerticalAlignment="Top" Click="Button_Click"/>
 
     </Grid>
